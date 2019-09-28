@@ -1,0 +1,17 @@
+@import './components/section.scss';
+@import './components/hero-banner.scss';
+@import './mixins.scss';
+
+
+$colour: #f03;
+
+html {
+    font-size: 16px;
+    
+
+    * {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-rendering: optimizeLegibility;
+      }
+}

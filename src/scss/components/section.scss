@@ -1,0 +1,11 @@
+html body {
+    .section.container-fluid {
+        max-width: 100%;
+        padding: 0;
+
+        .wrapper {
+            max-width: 1400px;
+            margin: auto;
+        }
+    }
+}

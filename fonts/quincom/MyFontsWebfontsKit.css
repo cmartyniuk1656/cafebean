@@ -1,0 +1,28 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3812368, 2019-09-27T19:21:04-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: QindomALT by Realtype
+ * URL: https://www.myfonts.com/fonts/realtype/qindom/alt/
+ * Copyright: Copyright (c) 2019 by Alam Syahril. All rights reserved.
+ * Licensed pageviews: 10,000
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3812368
+ * 
+ * © 2019 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3a2c10");
+
+  
+@font-face {font-family: 'QindomALT';src: url('webfonts/3A2C10_0_0.eot');src: url('webfonts/3A2C10_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3A2C10_0_0.woff2') format('woff2'),url('webfonts/3A2C10_0_0.woff') format('woff'),url('webfonts/3A2C10_0_0.ttf') format('truetype');}
+ 

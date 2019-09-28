@@ -1,0 +1,37 @@
+.hero {
+    position: relative;
+    min-height: 100vh;
+    background-image: url('/dist/images/bg-hero.jpg');
+    background-position: center;
+    background-size: cover;
+
+    .title-container {
+        z-index: 6;
+        position: absolute;
+        bottom: 10px;
+        right: 30px;
+        text-align: center;
+        
+    }
+
+    h1 {
+        font-family: QindomALT;
+        font-weight: normal;
+        font-size: 20rem;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-rendering: optimizeLegibility;
+        color: #fff;
+        position: relative;
+    }
+
+    .darkening-mask {
+        min-height: 100vh;
+        position: relative;
+        z-index: 5;
+        background-image: radial-gradient(50% 50%,rgba(34,34,34,.2) 50%,rgba(34,34,34,.7) 100%);
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+}
