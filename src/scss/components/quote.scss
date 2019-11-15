@@ -1,0 +1,35 @@
+blockquote {
+    position: relative;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    padding: 50px 60px 28px 60px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 26px;
+    line-height: 34px;
+
+    &:before, &:after {
+        display: block;
+        width: 28px;
+        height: 19px;
+        position: absolute;
+        font-size: 120px;
+        line-height: 120px;
+        color: #d2d3d3;
+        font-weight: 500;
+    }
+
+    &:before {
+        top: 0px;
+        left: 0px;
+        content: "“";
+    }
+
+    &:after {
+        bottom: 0px;
+        right: 0px;
+        content: "”";
+    }
+}

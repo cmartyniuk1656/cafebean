@@ -1,0 +1,62 @@
+.accordion.md-accordion.menu-accordion {
+    .card {
+        background-color: transparent;
+        border: none;
+        border-bottom: solid 1px #f6af33;
+
+        .card-header {
+            background-color: transparent;
+            padding-left: 0;
+            border-bottom: none;
+
+            a {
+                color: #f6af33;
+                font-family: 'Amatic SC', cursive;
+
+                &:hover {
+                    text-decoration: none;
+                }
+                
+                h5 {
+                    font-size: 2rem;
+                    font-weight: bold;
+                }
+            }
+        }
+
+        .card-body {
+
+            padding-left: 10px;
+            color: #fff;
+
+            ul {
+                list-style: none;
+                padding-left: 0;
+                li {
+                    position: relative;
+
+                    h3 {
+                        font-family: 'Barlow Condensed', sans-serif;
+                        text-transform: uppercase;
+                        font-size: 1.25rem;
+                        font-weight: normal;
+                    }
+
+                    p.price {
+                        text-transform: uppercase;
+                        font-weight: bold;
+                        position: absolute;
+                        top: 0px;
+                        right: 0px;
+
+                        sup {
+                            display: inline-block;
+                            text-align: right;
+                            padding-left: 2px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

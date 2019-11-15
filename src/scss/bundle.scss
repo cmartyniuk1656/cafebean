@@ -1,17 +1,38 @@
+@import './mixins.scss';
 @import './components/section.scss';
 @import './components/hero-banner.scss';
-@import './mixins.scss';
+@import './components/accordion.scss';
+@import './components/menu-slider.scss';
+@import './components/quote.scss';
+
 
 
 $colour: #f03;
 
 html {
+
     font-size: 16px;
-    
 
     * {
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         text-rendering: optimizeLegibility;
+      }
+
+      .amatic {
+        font-family: 'Amatic SC', cursive;
+      }
+
+      .cursive {
+        font-family: QindomALT;
+      }
+
+      .normal {
+        font-family: 'Alegreya', serif;
+        color: #fff;
+      }
+
+      .align-center {
+          text-align: center;
       }
 }

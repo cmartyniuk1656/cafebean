@@ -1,9 +1,15 @@
 .hero {
     position: relative;
     min-height: 100vh;
-    background-image: url('/dist/images/bg-hero.jpg');
+    // background-image: url('/dist/images/bg-hero.jpg');
     background-position: center;
     background-size: cover;
+
+    @include sm {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
 
     .title-container {
         z-index: 6;
@@ -11,6 +17,15 @@
         bottom: 10px;
         right: 30px;
         text-align: center;
+
+        @include sm {
+            position: relative;
+            bottom: unset;
+            right: unset;
+            display: flex;
+            align-self: flex-start;
+            padding-top: 50px;
+        }
         
     }
 
@@ -23,6 +38,11 @@
         text-rendering: optimizeLegibility;
         color: #fff;
         position: relative;
+
+        @include sm {
+            font-size: 15rem;
+            line-height: 10rem;
+        }
     }
 
     .darkening-mask {
@@ -33,5 +53,9 @@
         position: absolute;
         top: 0;
         width: 100%;
+
+        @include sm {
+            background-image: radial-gradient(50% 50%,rgba(34,34,34,.4) 50%,rgba(34,34,34,.9) 100%);
+        }
     }
 }

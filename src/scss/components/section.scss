@@ -3,9 +3,54 @@ html body {
         max-width: 100%;
         padding: 0;
 
+        &.brown-bg {
+            background-color: #362d26;
+        }
+
         .wrapper {
-            max-width: 1400px;
+            max-width: 1200px;
             margin: auto;
+            padding: 90px 30px 90px 30px;
+
+            .inner-wrapper {
+                max-width: 760px;
+                margin: auto;
+            }
+        }
+
+        .background-band {
+            min-height: 500px;
+        }
+
+        &#statement {
+            h2 {
+                font-size: 8rem;
+                line-height: 2rem;
+                color: #655b54;
+            }
+
+            h3 {
+                font-size: 5rem;
+                color: #f6af33;
+                font-weight: 700;
+                margin-bottom: 45px;
+            }
+
+            p {
+                font-size: 1.375rem;
+                color: #fff;
+            }
+        }
+
+        &#menu {
+
+            padding-top: 10px;
+            h2.amatic {
+                font-size: 5rem;
+                color: #f6af33;
+                font-weight: bold;
+                margin: 50px 0;
+            }
         }
     }
 }
