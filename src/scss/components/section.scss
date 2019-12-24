@@ -52,5 +52,210 @@ html body {
                 margin: 50px 0;
             }
         }
+
+        &#contact {
+
+            h2 {
+                font-size: 5rem;
+                color: #f6af33;
+                font-weight: bold;
+                margin: 50px 0;
+            }
+
+            h3 {
+                font-family: 'Barlow Condensed', sans-serif;
+                text-transform: uppercase;
+                font-size: 2rem;
+                font-weight: bold;
+                color: #fff;
+                margin-bottom: 25px;
+            }
+
+            .address {
+                position: relative;
+                margin-bottom: 16px;
+
+                a {
+                    position: relative;
+                    padding-left: 45px;
+                    display: inline-block;
+                    text-decoration: none;
+                    -webkit-transition: all 0.3s ease-in-out;
+                    transition: all 0.3s ease-in-out;
+                    font-family: 'Alegreya', serif;
+
+                    &:before {
+                        display: block;
+                        width: 25px;
+                        height: 38px;
+                        content: "";
+                        position: absolute;
+                        top: -2px;
+                        left: 0px;
+                        background: transparent url(/images/sprites.svg) no-repeat -64px -192px;
+                        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+                        filter: alpha(opacity=100);
+                        opacity: 1;
+                    }
+
+                    p {
+                        color: #fff;
+                        -webkit-transition: all 0.3s ease-in-out;
+                        transition: all 0.3s ease-in-out;
+                        font-family: 'Alegreya', serif;
+
+                        &:hover {
+                            color: #f6af33;
+                        }
+                    }
+                }
+            }
+
+            .tel {
+                margin-bottom: 22px;
+
+                p {
+                    font-size: 28px;
+                    line-height: 24px;
+                    color: #fff;
+                    padding-left: 45px;
+                    position: relative;
+                    min-height: 34px;
+
+                    &:before {
+                        display: block;
+                        width: 24px;
+                        height: 34px;
+                        content: "";
+                        position: absolute;
+                        top: -3px;
+                        left: 0px;
+                        background: transparent url(/images/sprites.svg) no-repeat -128px -192px;
+                    }
+
+                    a {
+                        font-family: 'Alegreya', serif;
+                        color: #fff;
+                        -webkit-transition: all 0.3s ease-in-out;
+                        transition: all 0.3s ease-in-out;
+                        font-family: 'Alegreya', serif;
+
+                        &:hover {
+                            color: #f6af33;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+
+            .mail {
+
+                position: relative;
+                margin-bottom: 22px;
+
+                a {
+                    min-height: 30px;
+                    position: relative;
+                    padding-left: 45px;
+                    display: inline-block;
+                    font-size: 16px;
+                    line-height: 22px;
+                    color: #fff;
+                    -webkit-transition: all 0.3s ease-in-out;
+                    transition: all 0.3s ease-in-out;
+                    font-family: 'Alegreya', serif;
+
+                    &:hover {
+                        color: #f6af33;
+                        text-decoration: none;
+                    }
+
+                    &:before {
+                        display: block;
+                        width: 30px;
+                        height: 23px;
+                        content: "";
+                        position: absolute;
+                        top: 0px;
+                        left: 0px;
+                        background: transparent url(/images/sprites.svg) no-repeat 0px -320px;
+                        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+                        filter: alpha(opacity=100);
+                        opacity: 1;
+                        -webkit-transition: all 0.3s ease-in-out;
+                        transition: all 0.3s ease-in-out;
+                    }
+                }
+
+                
+            }
+
+            .facebook {
+                position: relative;
+
+                a {
+                    padding-top: 6px;
+                    min-height: 38px;
+                    position: relative;
+                    padding-left: 45px;
+                    display: inline-block;
+                    font-size: 16px;
+                    line-height: 22px;
+                    color: #fff;
+                    -webkit-transition: all 0.3s ease-in-out;
+                    transition: all 0.3s ease-in-out;
+                    font-family: 'Alegreya', serif;
+
+                    &:hover {
+                        text-decoration: none;
+                        color: #f6af33;
+                    }
+
+                    &:before {
+                        display: block;
+                        width: 19px;
+                        height: 38px;
+                        content: "";
+                        position: absolute;
+                        top: -3px;
+                        left: 0px;
+                        background: transparent url(/images/sprites.svg) no-repeat -288px -192px;
+                        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+                        filter: alpha(opacity=100);
+                        opacity: 1;
+                        -webkit-transition: all 0.3s ease-in-out;
+                        transition: all 0.3s ease-in-out;
+                    }
+                }
+            }
+
+            .hours {
+                padding-left: 45px;
+                position: relative;
+
+                h4 {
+                    font-family: 'Alegreya', serif;
+                    color: #fff;
+                    margin-bottom: 0;
+                }
+
+                p {
+                    font-family: 'Alegreya', serif;
+                    color: #fff;
+                }
+
+                &:before {
+                    display: block;
+                    width: 32px;
+                    height: 33px;
+                    content: "";
+                    position: absolute;
+                    top: -2px;
+                    left: 0px;
+                    background: transparent url(/images/sprites.svg) no-repeat -192px -192px;
+                }
+            }
+
+        }
     }
 }
